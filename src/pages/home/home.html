@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Accueil</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Bienvenue sur WhatHouse !</h2>
+  <p>
+    Cette application est là pour vous aider à déterminer à quelle maison de Poudlard vous appartenez.
+  </p>
+  <p>
+    Bon courage !
+  </p>
+  <ion-item style="margin-top: 4rem;">
+    <ion-label color="primary">Ton nom</ion-label>
+    <ion-input placeholder="Jean Claude Dusse" #name></ion-input>
+  </ion-item>
+  <button ion-button full (click)="startQuizz(name.value)">Commencer le quizz</button>
+  <hr />
+  <button ion-button full color="light" (click)="seeResults()">Voir tous les résultats</button>
+</ion-content>
