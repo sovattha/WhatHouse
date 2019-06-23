@@ -1,8 +1,8 @@
-<!-- Generated template for the QuestionComponent component -->
-<p>
-  {{text}}
-</p>
-<p>
-  <button ion-button color="danger" (click)="answer(false)">Faux</button>
-  <button ion-button color="secondary" (click)="answer(true)">Vrai</button>
-</p>
+<ng-container *ngIf="question">
+  <p>
+    {{text}}
+  </p>
+  <ng-container *ngFor="let choice of question.choices">
+    <button ion-button (click)="answer(choice)">{{choice.text}}</button>
+  </ng-container>
+</ng-container>

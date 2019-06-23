@@ -1,0 +1,541 @@
+[{
+  "id": 1,
+  "choices": [{
+    "house": "red",
+    "text": "self-confident"
+  },
+    {
+      "house": "green",
+      "text": "structured"
+    },
+    {
+      "house": "blue",
+      "text": "sensitive"
+    },
+    {
+      "house": "yellow",
+      "text": "trusting"
+    }
+  ]
+},
+  {
+    "id": 2,
+    "choices": [{
+      "house": "red",
+      "text": "spontaneous"
+    },
+      {
+        "house": "yellow",
+        "text": "checks with others"
+      },
+      {
+        "house": "blue",
+        "text": "dreamer"
+      },
+      {
+        "house": "green",
+        "text": "analytical"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "choices": [{
+      "house": "yellow",
+      "text": "likes involvement"
+    },
+      {
+        "house": "green",
+        "text": "likes organization"
+      },
+      {
+        "house": "red",
+        "text": "likes being straightforward"
+      },
+      {
+        "house": "blue",
+        "text": "likes to explore"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "choices": [{
+      "house": "green",
+      "text": "stubborn"
+    },
+      {
+        "house": "red",
+        "text": "dictatorial"
+      },
+      {
+        "house": "yellow",
+        "text": "rebellious"
+      },
+      {
+        "house": "blue",
+        "text": "easily offended"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "choices": [{
+      "house": "red",
+      "text": "demanding"
+    },
+      {
+        "house": "yellow",
+        "text": "nurturing"
+      },
+      {
+        "house": "green",
+        "text": "persistent"
+      },
+      {
+        "house": "blue",
+        "text": "quiet"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "choices": [{
+      "house": "yellow",
+      "text": "joiner"
+    },
+      {
+        "house": "blue",
+        "text": "likes to brainstorm"
+      },
+      {
+        "house": "green",
+        "text": "resists change"
+      },
+      {
+        "house": "red",
+        "text": "takes charge"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "choices": [{
+      "house": "green",
+      "text": "cautious"
+    },
+      {
+        "house": "blue",
+        "text": "overgenerous"
+      },
+      {
+        "house": "yellow",
+        "text": "harmonious"
+      },
+      {
+        "house": "red",
+        "text": "energetic"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "choices": [{
+      "house": "yellow",
+      "text": "caring/helpful"
+    },
+      {
+        "house": "red",
+        "text": "outspoken"
+      },
+      {
+        "house": "green",
+        "text": "steadfast behaviour"
+      },
+      {
+        "house": "blue",
+        "text": "mild mannered"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "choices": [{
+      "house": "yellow",
+      "text": "believable"
+    },
+      {
+        "house": "red",
+        "text": "forceful"
+      },
+      {
+        "house": "green",
+        "text": "disciplined"
+      },
+      {
+        "house": "blue",
+        "text": "possessive"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "choices": [{
+      "house": "red",
+      "text": "daring"
+    },
+      {
+        "house": "blue",
+        "text": "idealist"
+      },
+      {
+        "house": "green",
+        "text": "dutiful"
+      },
+      {
+        "house": "yellow",
+        "text": "playful"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "choices": [{
+      "house": "green",
+      "text": "logical"
+    },
+      {
+        "house": "blue",
+        "text": "contented"
+      },
+      {
+        "house": "yellow",
+        "text": "friendly"
+      },
+      {
+        "house": "red",
+        "text": "bold/audacious"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "choices": [{
+      "house": "red",
+      "text": "eager beaver"
+    },
+      {
+        "house": "blue",
+        "text": "imaginative"
+      },
+      {
+        "house": "green",
+        "text": "accurate/precise"
+      },
+      {
+        "house": "yellow",
+        "text": "well liked"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "choices": [{
+      "house": "green",
+      "text": "reserved"
+    },
+      {
+        "house": "blue",
+        "text": "inventive"
+      },
+      {
+        "house": "red",
+        "text": "charismatic"
+      },
+      {
+        "house": "yellow",
+        "text": "optimistic"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "choices": [{
+      "house": "red",
+      "text": "authoritative"
+    },
+      {
+        "house": "yellow",
+        "text": "team worker"
+      },
+      {
+        "house": "blue",
+        "text": "independent"
+      },
+      {
+        "house": "green",
+        "text": "traditional"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "choices": [{
+      "house": "yellow",
+      "text": "talkative"
+    },
+      {
+        "house": "red",
+        "text": "restless"
+      },
+      {
+        "house": "green",
+        "text": "conscientious"
+      },
+      {
+        "house": "blue",
+        "text": "modest/unassuming"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "choices": [{
+      "house": "red",
+      "text": "leader"
+    },
+      {
+        "house": "yellow",
+        "text": "counsellor"
+      },
+      {
+        "house": "blue",
+        "text": "designer"
+      },
+      {
+        "house": "green",
+        "text": "controller"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "choices": [{
+      "house": "green",
+      "text": "meticulous"
+    },
+      {
+        "house": "red",
+        "text": "workaholic"
+      },
+      {
+        "house": "yellow",
+        "text": "supportive"
+      },
+      {
+        "house": "blue",
+        "text": "self-directed"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "choices": [{
+      "house": "red",
+      "text": "industrious"
+    },
+      {
+        "house": "green",
+        "text": "attentive to details"
+      },
+      {
+        "house": "blue",
+        "text": "mental imager"
+      },
+      {
+        "house": "yellow",
+        "text": "positive thinker"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "choices": [{
+      "house": "green",
+      "text": "task-oriented"
+    },
+      {
+        "house": "yellow",
+        "text": "people-oriented"
+      },
+      {
+        "house": "blue",
+        "text": "idea-oriented"
+      },
+      {
+        "house": "red",
+        "text": "result-oriented"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "choices": [{
+      "house": "blue",
+      "text": "emotional"
+    },
+      {
+        "house": "yellow",
+        "text": "flexible/adaptable"
+      },
+      {
+        "house": "red",
+        "text": "likes recognition"
+      },
+      {
+        "house": "green",
+        "text": "particular"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "choices": [{
+      "house": "red",
+      "text": "irritable"
+    },
+      {
+        "house": "green",
+        "text": "rigid"
+      },
+      {
+        "house": "blue",
+        "text": "easily slighted"
+      },
+      {
+        "house": "yellow",
+        "text": "easily threatened"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "choices": [{
+      "house": "yellow",
+      "text": "indirect"
+    },
+      {
+        "house": "red",
+        "text": "frank/candid"
+      },
+      {
+        "house": "blue",
+        "text": "careful"
+      },
+      {
+        "house": "green",
+        "text": "strict"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "choices": [{
+      "house": "red",
+      "text": "goal-oriented"
+    },
+      {
+        "house": "blue",
+        "text": "capable"
+      },
+      {
+        "house": "yellow",
+        "text": "volunteers"
+      },
+      {
+        "house": "green",
+        "text": "schedule-oriented"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "choices": [{
+      "house": "red",
+      "text": "excels in crisis"
+    },
+      {
+        "house": "yellow",
+        "text": "likes compliments"
+      },
+      {
+        "house": "blue",
+        "text": "dry humour"
+      },
+      {
+        "house": "green",
+        "text": "avoids causing attention"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "choices": [{
+      "house": "blue",
+      "text": "likes watching people"
+    },
+      {
+        "house": "red",
+        "text": "strong-willed"
+      },
+      {
+        "house": "yellow",
+        "text": "enthusiastic"
+      },
+      {
+        "house": "green",
+        "text": "sets very high standards"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "choices": [{
+      "house": "red",
+      "text": "very self-confident"
+    },
+      {
+        "house": "blue",
+        "text": "cautious in friends"
+      },
+      {
+        "house": "green",
+        "text": "thorough"
+      },
+      {
+        "house": "yellow",
+        "text": "dresses in trendy ways"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "choices": [{
+      "house": "green",
+      "text": "neat and tidy"
+    },
+      {
+        "house": "yellow",
+        "text": "looks good on outside"
+      },
+      {
+        "house": "blue",
+        "text": "avoids conflicts"
+      },
+      {
+        "house": "red",
+        "text": "usually right"
+      }
+    ]
+  }
+]

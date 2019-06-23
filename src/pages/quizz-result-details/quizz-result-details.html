@@ -1,22 +1,17 @@
-<!--
-  Generated template for the QuizzResultDetailsPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
   <ion-navbar>
-    <ion-title>Détail du quizz</ion-title>
+    <ion-title>Quizz details</ion-title>
   </ion-navbar>
 </ion-header>
 <ion-content padding>
-  <h4>{{message}}</h4>
+  <h4>Congratulations {{ this.quizzResult.userName }}, you are...</h4>
+  <h4>{{ message }}</h4>
   <p>
-    Utilisateur: {{quizzResult.userName}}<br />
+    User: {{quizzResult.userName}}<br />
     Date: {{quizzResult.finishDate | date:'d/M/yy, HH:mm'}}<br />
-    Score Gryffondor: {{scoreGryffondor}}/25<br />
-    Score Serdaigle: {{scoreSerdaigle}}/25<br />
-    Score Poufsouffle: {{scorePoufsouffle}}/25<br />
-    Score Serpentard: {{scoreSerpentard}}/25
+    Score Blue: {{scoreBlue}}<br />
+    Score Red: {{scoreRed}}<br />
+    Score Green: {{scoreGreen}}<br />
+    Score Yellow: {{scoreYellow}}
   </p>
 </ion-content>

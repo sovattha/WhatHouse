@@ -2,19 +2,13 @@ import { QuizzResultDetailsPage } from './../quizz-result-details/quizz-result-d
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
-
-interface question {
-  id: number,
-  text: string,
-  house: string,
-  answer: boolean
-}
+import { Choice } from "../quizz/quizz";
 
 interface QuizzResult {
   userName: string,
   beginDate: Date,
   finishDate: Date,
-  questions: question[]
+  results: Choice[]
 }
 
 @IonicPage()
@@ -50,8 +44,8 @@ export class ResultsPage {
     var result = this.results.filter(r => r.finishDate == date);
     if(!result || result.length != 1) {
       let alert = this.alertCtrl.create({
-        title: 'Une erreur est survenue',
-        subTitle: "Ce résultat n'a pas été trouvé",
+        title: 'An error occured',
+        subTitle: "This results has not been found",
         buttons: ['Dismiss']
       });
       alert.present();

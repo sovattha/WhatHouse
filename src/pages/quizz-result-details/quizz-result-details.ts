@@ -1,25 +1,12 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the QuizzResultDetailsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
-interface question {
-  id: number,
-  text: string,
-  house: string,
-  answer: boolean
-}
+import { Choice } from "../quizz/quizz";
 
 interface QuizzResult {
   userName: string,
   beginDate: Date,
   finishDate: Date,
-  questions: question[]
+  choices: Choice[]
 }
 
 @IonicPage()
@@ -30,50 +17,49 @@ interface QuizzResult {
 export class QuizzResultDetailsPage {
 
   public quizzResult: QuizzResult;
-  public scoreGryffondor: number;
-  public scoreSerdaigle: number;
-  public scorePoufsouffle: number;
-  public scoreSerpentard: number;
+  public scoreBlue: number;
+  public scoreRed: number;
+  public scoreGreen: number;
+  public scoreYellow: number;
   public message: string;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.quizzResult = navParams.get('quizzResult');
-    this.scoreGryffondor = this.getScore('Gryffondor');
-    this.scoreSerdaigle = this.getScore('Serdaigle');
-    this.scorePoufsouffle = this.getScore('Poufsouffle');
-    this.scoreSerpentard = this.getScore('Serpentard');
-    let message = 'Félicitations ' + this.quizzResult.userName + ', tu es ';
+    this.scoreBlue = this.getScore('blue');
+    this.scoreRed = this.getScore('red');
+    this.scoreGreen = this.getScore('green');
+    this.scoreYellow = this.getScore('yellow');
     let houses = '';
     let nbHouses = 0;
-    if(this.scoreGryffondor >= this.scoreSerdaigle 
-      && this.scoreGryffondor >= this.scorePoufsouffle 
-      && this.scoreGryffondor >= this.scoreSerpentard) {
-        houses += 'Gryffondor croisé ';
+    if(this.scoreBlue >= this.scoreRed
+      && this.scoreBlue >= this.scoreGreen
+      && this.scoreBlue >= this.scoreYellow) {
+        houses += 'Blue mixed';
         nbHouses++;
     }
-    if(this.scoreSerdaigle >= this.scoreGryffondor 
-      && this.scoreSerdaigle >= this.scorePoufsouffle 
-      && this.scoreSerdaigle >= this.scoreSerpentard) {
-        houses += 'Serdaigle croisé ';
+    if(this.scoreRed >= this.scoreBlue
+      && this.scoreRed >= this.scoreGreen
+      && this.scoreRed >= this.scoreYellow) {
+        houses += 'Red mixed';
         nbHouses++;
     }
-    if(this.scorePoufsouffle >= this.scoreSerdaigle 
-      && this.scorePoufsouffle >= this.scoreGryffondor 
-      && this.scorePoufsouffle >= this.scoreSerpentard) {
-        houses += 'Poufsouffle croisé ';
+    if(this.scoreGreen >= this.scoreRed
+      && this.scoreGreen >= this.scoreBlue
+      && this.scoreGreen >= this.scoreYellow) {
+        houses += 'Green mixed';
         nbHouses++;
     }
-    if(this.scoreSerpentard >= this.scoreSerdaigle 
-      && this.scoreSerpentard >= this.scorePoufsouffle 
-      && this.scoreSerpentard >= this.scoreGryffondor) {
-        houses += 'Serpentard croisé ';
+    if(this.scoreYellow >= this.scoreRed
+      && this.scoreYellow >= this.scoreGreen
+      && this.scoreYellow >= this.scoreBlue) {
+        houses += 'Yellow mixed';
         nbHouses++;
     }
-    houses = houses.substring(0, houses.length - 8);
+    houses = houses.replace(' mixed', '');
     if(nbHouses > 1) {
-      this.message = message + 'un hybride ' + houses + ' !';
+      this.message = 'an hybrid ' + houses + ' !';
     } else {
-      this.message = message + 'un(e) vrai(e) ' + houses + ' !';
+      this.message = 'a real ' + houses + ' !';
     }
   }
 
@@ -82,7 +68,7 @@ export class QuizzResultDetailsPage {
   }
 
   private getScore(category: string) {
-    console.log(this.quizzResult.questions);
-    return this.quizzResult.questions.filter(q => q.house === category && q.answer === true).length;
+    console.log(this.quizzResult);
+    return this.quizzResult.choices.filter(q => q.house === category).length;
   }
 }

@@ -1,11 +1,6 @@
 import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
+import {Choice, Question} from "../../pages/quizz/quizz";
 
-/**
- * Generated class for the QuestionComponent component.
- *
- * See https://angular.io/api/core/Component for more info on Angular
- * Components.
- */
 @Component({
   selector: 'ht-question',
   templateUrl: 'question.html'
@@ -13,17 +8,17 @@ import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
 export class QuestionComponent implements OnInit {
 
   @Input()
-  public text: string = '';
+  public question: Question;
 
   @Output()
-  public answered: EventEmitter<boolean> = new EventEmitter();
+  public answered: EventEmitter<Choice> = new EventEmitter();
 
   constructor() {
   }
   ngOnInit(): void {
   }
 
-  public answer(yesOrNo: boolean): void {
-    this.answered.emit(yesOrNo);
+  public answer(choice: Choice): void {
+    this.answered.emit(choice);
   }
 }

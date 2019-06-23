@@ -1,22 +1,19 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Accueil</ion-title>
+    <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Bienvenue sur WhatHouse !</h2>
+  <h2>What colour are you?</h2>
   <p>
-    Cette application est là pour vous aider à déterminer à quelle maison de Poudlard vous appartenez.
-  </p>
-  <p>
-    Bon courage !
+    Our personalities can be divided into colours. Each colour has particular traits, and it is important for you to understand these traits. Not only will it help you to psychologically understand the person better, but it will aid how you interact with them. If you know how to get the best out of a person, you will see great results, and better still if you recognise what colour YOU are, you are able to advise people how to get the best out of you, your likes and dislikes, your strengths and your weaknesses.
   </p>
   <ion-item style="margin-top: 4rem;">
-    <ion-label color="primary">Ton nom</ion-label>
-    <ion-input placeholder="Jean Claude Dusse" #name></ion-input>
+    <ion-label color="primary">Your name</ion-label>
+    <ion-input placeholder="Anonymous user" #name></ion-input>
   </ion-item>
-  <button ion-button full (click)="startQuizz(name.value)">Commencer le quizz</button>
+  <button ion-button full (click)="startQuizz(name.value)">Start the quizz</button>
   <hr />
-  <button ion-button full color="light" (click)="seeResults()">Voir tous les résultats</button>
+  <button ion-button full color="light" (click)="seeResults()">See all the results</button>
 </ion-content>
