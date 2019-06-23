@@ -3,6 +3,6 @@
     {{text}}
   </p>
   <ng-container *ngFor="let choice of question.choices">
-    <button ion-button (click)="answer(choice)">{{choice.text}}</button>
+    <button ion-button full (click)="answer(choice)">{{choice.text}}</button>
   </ng-container>
 </ng-container>
