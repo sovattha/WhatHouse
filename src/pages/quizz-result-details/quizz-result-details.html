@@ -7,6 +7,14 @@
   <h4>Congratulations {{ this.quizzResult.userName }}, you are...</h4>
   <h4>{{ message }}</h4>
   <p>
+    Your answers
+  </p>
+  <ul>
+    <li *ngFor="let result of quizzResult.choices">
+      {{ result.text }} ({{ result.house }})
+    </li>
+  </ul>
+  <p>
     User: {{quizzResult.userName}}<br />
     Date: {{quizzResult.finishDate | date:'d/M/yy, HH:mm'}}<br />
     Score Blue: {{scoreBlue}}<br />
