@@ -1,0 +1,541 @@
+[{
+  "id": 1,
+  "choices": [{
+    "house": "red",
+    "text": "confiant"
+  },
+    {
+      "house": "green",
+      "text": "structuré"
+    },
+    {
+      "house": "blue",
+      "text": "sensible"
+    },
+    {
+      "house": "yellow",
+      "text": "de confiance"
+    }
+  ]
+},
+  {
+    "id": 2,
+    "choices": [{
+      "house": "red",
+      "text": "spontané"
+    },
+      {
+        "house": "yellow",
+        "text": "vérifie avec d'autres personnes"
+      },
+      {
+        "house": "blue",
+        "text": "rêveur"
+      },
+      {
+        "house": "green",
+        "text": "analytique"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "choices": [{
+      "house": "yellow",
+      "text": "aime l'implication"
+    },
+      {
+        "house": "green",
+        "text": "aime l'organisation"
+      },
+      {
+        "house": "red",
+        "text": "aime être simple"
+      },
+      {
+        "house": "blue",
+        "text": "aime explorer"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "choices": [{
+      "house": "green",
+      "text": "têtu"
+    },
+      {
+        "house": "red",
+        "text": "dictatorial"
+      },
+      {
+        "house": "yellow",
+        "text": "rebelle"
+      },
+      {
+        "house": "blue",
+        "text": "facilement offensé"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "choices": [{
+      "house": "red",
+      "text": "exigeant"
+    },
+      {
+        "house": "yellow",
+        "text": "nourricier"
+      },
+      {
+        "house": "green",
+        "text": "persistant"
+      },
+      {
+        "house": "blue",
+        "text": "silencieux"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "choices": [{
+      "house": "yellow",
+      "text": "sociable"
+    },
+      {
+        "house": "blue",
+        "text": "aime faire du brainstorm"
+      },
+      {
+        "house": "green",
+        "text": "résiste au changement"
+      },
+      {
+        "house": "red",
+        "text": "prend en charge"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "choices": [{
+      "house": "green",
+      "text": "prudent"
+    },
+      {
+        "house": "blue",
+        "text": "trop généreux"
+      },
+      {
+        "house": "yellow",
+        "text": "harmonieux"
+      },
+      {
+        "house": "red",
+        "text": "énergique"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "choices": [{
+      "house": "yellow",
+      "text": "attentionné"
+    },
+      {
+        "house": "red",
+        "text": "franc"
+      },
+      {
+        "house": "green",
+        "text": "comportement inébranlable"
+      },
+      {
+        "house": "blue",
+        "text": "délicat"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "choices": [{
+      "house": "yellow",
+      "text": "crédible"
+    },
+      {
+        "house": "red",
+        "text": "énergique"
+      },
+      {
+        "house": "green",
+        "text": "discipliné"
+      },
+      {
+        "house": "blue",
+        "text": "possessif"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "choices": [{
+      "house": "red",
+      "text": "audacieux"
+    },
+      {
+        "house": "blue",
+        "text": "idéaliste"
+      },
+      {
+        "house": "green",
+        "text": "respectueux"
+      },
+      {
+        "house": "yellow",
+        "text": "espiègle"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "choices": [{
+      "house": "green",
+      "text": "logique"
+    },
+      {
+        "house": "blue",
+        "text": "satisfait"
+      },
+      {
+        "house": "yellow",
+        "text": "amical"
+      },
+      {
+        "house": "red",
+        "text": "audacieux"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "choices": [{
+      "house": "red",
+      "text": "zélé"
+    },
+      {
+        "house": "blue",
+        "text": "imaginatif"
+      },
+      {
+        "house": "green",
+        "text": "précis"
+      },
+      {
+        "house": "yellow",
+        "text": "bien aimé"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "choices": [{
+      "house": "green",
+      "text": "réservé"
+    },
+      {
+        "house": "blue",
+        "text": "inventif"
+      },
+      {
+        "house": "red",
+        "text": "charismatique"
+      },
+      {
+        "house": "yellow",
+        "text": "optimiste"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "choices": [{
+      "house": "red",
+      "text": "autorité"
+    },
+      {
+        "house": "yellow",
+        "text": "travailleur en équipe"
+      },
+      {
+        "house": "blue",
+        "text": "indépendant"
+      },
+      {
+        "house": "green",
+        "text": "traditionnel"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "choices": [{
+      "house": "yellow",
+      "text": "bavard"
+    },
+      {
+        "house": "red",
+        "text": "agité"
+      },
+      {
+        "house": "green",
+        "text": "consciencieux"
+      },
+      {
+        "house": "blue",
+        "text": "modeste"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "choices": [{
+      "house": "red",
+      "text": "chef"
+    },
+      {
+        "house": "yellow",
+        "text": "conseiller"
+      },
+      {
+        "house": "blue",
+        "text": "designer"
+      },
+      {
+        "house": "green",
+        "text": "contrôleur"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "choices": [{
+      "house": "green",
+      "text": "méticuleux"
+    },
+      {
+        "house": "red",
+        "text": "bourreau du travail"
+      },
+      {
+        "house": "yellow",
+        "text": "supportif"
+      },
+      {
+        "house": "blue",
+        "text": "autonome"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "choices": [{
+      "house": "red",
+      "text": "adroit"
+    },
+      {
+        "house": "green",
+        "text": "attentif aux détails"
+      },
+      {
+        "house": "blue",
+        "text": "imaginatif"
+      },
+      {
+        "house": "yellow",
+        "text": "positif"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "choices": [{
+      "house": "green",
+      "text": "orienté sur les tâches"
+    },
+      {
+        "house": "yellow",
+        "text": "orienté vers les gens"
+      },
+      {
+        "house": "blue",
+        "text": "orienté sur les idées"
+      },
+      {
+        "house": "red",
+        "text": "orienté sur les résultats"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "choices": [{
+      "house": "blue",
+      "text": "émotif"
+    },
+      {
+        "house": "yellow",
+        "text": "flexible / adaptable"
+      },
+      {
+        "house": "red",
+        "text": "aime la reconnaissance"
+      },
+      {
+        "house": "green",
+        "text": "particulier"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "choices": [{
+      "house": "red",
+      "text": "irritable"
+    },
+      {
+        "house": "green",
+        "text": "rigide"
+      },
+      {
+        "house": "blue",
+        "text": "facilement méprisé"
+      },
+      {
+        "house": "yellow",
+        "text": "facilement menacé"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "choices": [{
+      "house": "yellow",
+      "text": "indirect"
+    },
+      {
+        "house": "red",
+        "text": "franc / candide"
+      },
+      {
+        "house": "blue",
+        "text": "prudent"
+      },
+      {
+        "house": "green",
+        "text": "strict"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "choices": [{
+      "house": "red",
+      "text": "orienté vers un objectif"
+    },
+      {
+        "house": "blue",
+        "text": "capable"
+      },
+      {
+        "house": "yellow",
+        "text": "volontaire"
+      },
+      {
+        "house": "green",
+        "text": "orienté horaire"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "choices": [{
+      "house": "red",
+      "text": "excelle en crise"
+    },
+      {
+        "house": "yellow",
+        "text": "aime les compliments"
+      },
+      {
+        "house": "blue",
+        "text": "humour sec"
+      },
+      {
+        "house": "green",
+        "text": "évite d'attirer l'attention"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "choices": [{
+      "house": "blue",
+      "text": "aime regarder les gens"
+    },
+      {
+        "house": "red",
+        "text": "volontaire"
+      },
+      {
+        "house": "yellow",
+        "text": "enthousiaste"
+      },
+      {
+        "house": "green",
+        "text": "établit des normes très élevées"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "choices": [{
+      "house": "red",
+      "text": "très confiant"
+    },
+      {
+        "house": "blue",
+        "text": "prudent en amitié"
+      },
+      {
+        "house": "green",
+        "text": "minutieux"
+      },
+      {
+        "house": "yellow",
+        "text": "s'habille à la mode"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "choices": [{
+      "house": "green",
+      "text": "propre et net"
+    },
+      {
+        "house": "yellow",
+        "text": "présentable"
+      },
+      {
+        "house": "blue",
+        "text": "évite les conflits"
+      },
+      {
+        "house": "red",
+        "text": "généralement juste"
+      }
+    ]
+  }
+]

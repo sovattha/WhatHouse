@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
 import { Subject } from 'rxjs/Subject';
-import jsonQuestions from './questions-en.json';
+import jsonQuestions from './questions-fr.json';
 
 export interface Question {
   id: number,
