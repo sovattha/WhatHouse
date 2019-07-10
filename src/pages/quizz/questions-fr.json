@@ -2,7 +2,7 @@
   "id": 1,
   "choices": [{
     "house": "red",
-    "text": "confiant"
+    "text": "sûr de soi"
   },
     {
       "house": "green",
@@ -14,7 +14,7 @@
     },
     {
       "house": "yellow",
-      "text": "de confiance"
+      "text": "confiant"
     }
   ]
 },
@@ -26,7 +26,7 @@
     },
       {
         "house": "yellow",
-        "text": "vérifie avec d'autres personnes"
+        "text": "consulte les autres"
       },
       {
         "house": "blue",
@@ -42,19 +42,19 @@
     "id": 3,
     "choices": [{
       "house": "yellow",
-      "text": "aime l'implication"
+      "text": "apprécie l'implication"
     },
       {
         "house": "green",
-        "text": "aime l'organisation"
+        "text": "apprécie l'organisation"
       },
       {
         "house": "red",
-        "text": "aime être simple"
+        "text": "apprécie d'être direct et franc"
       },
       {
         "house": "blue",
-        "text": "aime explorer"
+        "text": "apprécie l'exploration"
       }
     ]
   },
@@ -62,11 +62,11 @@
     "id": 4,
     "choices": [{
       "house": "green",
-      "text": "têtu"
+      "text": "têtu, obstiné"
     },
       {
         "house": "red",
-        "text": "dictatorial"
+        "text": "autoritaire, dictatorial"
       },
       {
         "house": "yellow",
@@ -86,7 +86,7 @@
     },
       {
         "house": "yellow",
-        "text": "nourricier"
+        "text": "encourageant, nourricier"
       },
       {
         "house": "green",
@@ -94,7 +94,7 @@
       },
       {
         "house": "blue",
-        "text": "silencieux"
+        "text": "calme"
       }
     ]
   },
@@ -106,15 +106,15 @@
     },
       {
         "house": "blue",
-        "text": "aime faire du brainstorm"
+        "text": "apprécie la réflexion"
       },
       {
         "house": "green",
-        "text": "résiste au changement"
+        "text": "récalcitrant face aux changements"
       },
       {
         "house": "red",
-        "text": "prend en charge"
+        "text": "prends en charge des responsabilités"
       }
     ]
   },
@@ -122,11 +122,11 @@
     "id": 7,
     "choices": [{
       "house": "green",
-      "text": "prudent"
+      "text": "prudent, vigilant"
     },
       {
         "house": "blue",
-        "text": "trop généreux"
+        "text": "excessivement généreux"
       },
       {
         "house": "yellow",
@@ -142,19 +142,19 @@
     "id": 8,
     "choices": [{
       "house": "yellow",
-      "text": "attentionné"
+      "text": "empathique, serviable, bienveillant"
     },
       {
         "house": "red",
-        "text": "franc"
+        "text": "franc et direct"
       },
       {
         "house": "green",
-        "text": "comportement inébranlable"
+        "text": "caractère constant, stoïque"
       },
       {
         "house": "blue",
-        "text": "délicat"
+        "text": "modéré, tempéré"
       }
     ]
   },
@@ -162,11 +162,11 @@
     "id": 9,
     "choices": [{
       "house": "yellow",
-      "text": "crédible"
+      "text": "plausible, vraisemblable"
     },
       {
         "house": "red",
-        "text": "énergique"
+        "text": "vigoureux, percutant"
       },
       {
         "house": "green",
@@ -190,11 +190,11 @@
       },
       {
         "house": "green",
-        "text": "respectueux"
+        "text": "consciencieux"
       },
       {
         "house": "yellow",
-        "text": "espiègle"
+        "text": "enjoué"
       }
     ]
   },
@@ -202,7 +202,7 @@
     "id": 11,
     "choices": [{
       "house": "green",
-      "text": "logique"
+      "text": "logique, rationnel"
     },
       {
         "house": "blue",
@@ -210,11 +210,11 @@
       },
       {
         "house": "yellow",
-        "text": "amical"
+        "text": "amical, convivial"
       },
       {
         "house": "red",
-        "text": "audacieux"
+        "text": "audacieux, téméraire"
       }
     ]
   },
@@ -222,7 +222,7 @@
     "id": 12,
     "choices": [{
       "house": "red",
-      "text": "zélé"
+      "text": "propension au zèle, en fait plus"
     },
       {
         "house": "blue",
@@ -230,11 +230,11 @@
       },
       {
         "house": "green",
-        "text": "précis"
+        "text": "précis, minutieux"
       },
       {
         "house": "yellow",
-        "text": "bien aimé"
+        "text": "apprécié par ses pairs"
       }
     ]
   },
@@ -262,19 +262,19 @@
     "id": 14,
     "choices": [{
       "house": "red",
-      "text": "autorité"
+      "text": "fait preuve d'autorité"
     },
       {
         "house": "yellow",
-        "text": "travailleur en équipe"
+        "text": "travaille en équipe"
       },
       {
         "house": "blue",
-        "text": "indépendant"
+        "text": "apprécie l'indépendance"
       },
       {
         "house": "green",
-        "text": "traditionnel"
+        "text": "apprécie les traditions"
       }
     ]
   },
@@ -282,19 +282,19 @@
     "id": 15,
     "choices": [{
       "house": "yellow",
-      "text": "bavard"
+      "text": "loquace, volubile"
     },
       {
         "house": "red",
-        "text": "agité"
+        "text": "agité, impatient"
       },
       {
         "house": "green",
-        "text": "consciencieux"
+        "text": "consciencieux, scrupuleux"
       },
       {
         "house": "blue",
-        "text": "modeste"
+        "text": "humble, modeste"
       }
     ]
   },
@@ -302,7 +302,7 @@
     "id": 16,
     "choices": [{
       "house": "red",
-      "text": "chef"
+      "text": "responsable"
     },
       {
         "house": "yellow",
@@ -310,7 +310,7 @@
       },
       {
         "house": "blue",
-        "text": "designer"
+        "text": "concepteur"
       },
       {
         "house": "green",
@@ -326,11 +326,11 @@
     },
       {
         "house": "red",
-        "text": "bourreau du travail"
+        "text": "bourreau de travail"
       },
       {
         "house": "yellow",
-        "text": "supportif"
+        "text": "coopératif, solidaire"
       },
       {
         "house": "blue",
@@ -342,7 +342,7 @@
     "id": 18,
     "choices": [{
       "house": "red",
-      "text": "adroit"
+      "text": "industrieux, travailleur"
     },
       {
         "house": "green",
@@ -350,11 +350,11 @@
       },
       {
         "house": "blue",
-        "text": "imaginatif"
+        "text": "se projette mentalement"
       },
       {
         "house": "yellow",
-        "text": "positif"
+        "text": "attitude positive"
       }
     ]
   },
@@ -362,19 +362,19 @@
     "id": 19,
     "choices": [{
       "house": "green",
-      "text": "orienté sur les tâches"
+      "text": "orienté vers les tâches"
     },
       {
         "house": "yellow",
-        "text": "orienté vers les gens"
+        "text": "orienté vers les personnes"
       },
       {
         "house": "blue",
-        "text": "orienté sur les idées"
+        "text": "orienté vers les idées"
       },
       {
         "house": "red",
-        "text": "orienté sur les résultats"
+        "text": "orienté vers les résultats"
       }
     ]
   },
@@ -382,19 +382,19 @@
     "id": 20,
     "choices": [{
       "house": "blue",
-      "text": "émotif"
+      "text": "émotionnel, sentimental"
     },
       {
         "house": "yellow",
-        "text": "flexible / adaptable"
+        "text": "flexible, adaptable"
       },
       {
         "house": "red",
-        "text": "aime la reconnaissance"
+        "text": "apprécie la reconnaissance"
       },
       {
         "house": "green",
-        "text": "particulier"
+        "text": "particulier, spécial"
       }
     ]
   },
@@ -410,7 +410,7 @@
       },
       {
         "house": "blue",
-        "text": "facilement méprisé"
+        "text": "facilement blessé"
       },
       {
         "house": "yellow",
@@ -426,15 +426,15 @@
     },
       {
         "house": "red",
-        "text": "franc / candide"
+        "text": "franc, sincère"
       },
       {
         "house": "blue",
-        "text": "prudent"
+        "text": "minutieux, prudent"
       },
       {
         "house": "green",
-        "text": "strict"
+        "text": "strict, rigoureux"
       }
     ]
   },
@@ -442,19 +442,19 @@
     "id": 23,
     "choices": [{
       "house": "red",
-      "text": "orienté vers un objectif"
+      "text": "orienté vers un but"
     },
       {
         "house": "blue",
-        "text": "capable"
+        "text": "capable, compétent"
       },
       {
         "house": "yellow",
-        "text": "volontaire"
+        "text": "volontaire, bénévole"
       },
       {
         "house": "green",
-        "text": "orienté horaire"
+        "text": "respect les échéances"
       }
     ]
   },
@@ -462,15 +462,15 @@
     "id": 24,
     "choices": [{
       "house": "red",
-      "text": "excelle en crise"
+      "text": "excelle en cas de crise"
     },
       {
         "house": "yellow",
-        "text": "aime les compliments"
+        "text": "apprécie les compliments"
       },
       {
         "house": "blue",
-        "text": "humour sec"
+        "text": "humour pince-sans-rire"
       },
       {
         "house": "green",
@@ -482,11 +482,11 @@
     "id": 25,
     "choices": [{
       "house": "blue",
-      "text": "aime regarder les gens"
+      "text": "observe les gens"
     },
       {
         "house": "red",
-        "text": "volontaire"
+        "text": "forte volonté"
       },
       {
         "house": "yellow",
@@ -494,7 +494,7 @@
       },
       {
         "house": "green",
-        "text": "établit des normes très élevées"
+        "text": "place la barre très haut, est exigeant"
       }
     ]
   },
@@ -502,15 +502,15 @@
     "id": 26,
     "choices": [{
       "house": "red",
-      "text": "très confiant"
+      "text": "sûr de soi"
     },
       {
         "house": "blue",
-        "text": "prudent en amitié"
+        "text": "prudent en amitié, n'accorde pas sa confiance à n'importe qui"
       },
       {
         "house": "green",
-        "text": "minutieux"
+        "text": "minutieux, attentif"
       },
       {
         "house": "yellow",
@@ -522,11 +522,11 @@
     "id": 27,
     "choices": [{
       "house": "green",
-      "text": "propre et net"
+      "text": "soigné et ordonné"
     },
       {
         "house": "yellow",
-        "text": "présentable"
+        "text": "prend soin de son apparence"
       },
       {
         "house": "blue",
@@ -534,7 +534,7 @@
       },
       {
         "house": "red",
-        "text": "généralement juste"
+        "text": "a généralement raison"
       }
     ]
   }
